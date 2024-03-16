@@ -42,12 +42,12 @@ main()
 					aleatorio=rand()%7;
 					switch(aleatorio) 
 						{
-						case 1:
-							cout<<"1-¿Que es programacion?"<<endl;
-							cout<<"a)diseñar, depurar, codificar y mantener un codigo"<<endl;
-							cout<<"b)Un conjunto de programas"<<endl;
-							cout<<"c)Secuencia de operaciones en un determinado orden"<<endl;
-							cout<<"d)Se usa para resolver un problema"<<endl;
+						e 1:
+							cout<<"1-¿Que es metodología de desarrollo de software?"<<endl;
+							cout<<"a)conjunto de prácticas para diseñar, planificar, construir, probar y entregar software de alta calidad"<<endl;
+							cout<<"b)técnicas de análisis, priorización y definición de requerimientos"<<endl;
+							cout<<"c)la importancia de la negociación según las necesidades y elementos de la metodología"<<endl;
+							cout<<"d)La formación de equipos de trabajo autosuficientes e independientes"<<endl;
 							cin>>respuesta;
 						    if(respuesta=='a')
 								{
@@ -57,18 +57,18 @@ main()
 							else
 								{
 									cout<<"La respuesta es ERRONEA"<<endl;
-									cout<<"La respuesta es: diseñar, depurar, codificar y mantener un codigo"<<endl;
+									cout<<"La respuesta es: conjunto de prácticas para diseñar, planificar, construir, probar y entregar software de alta calidad"<<endl;
 									contan=contan+1;
 								}
 						break;	
 						case 2:	
-							cout<<"2-¿Que es un algoritmo?"<<endl;
-							cout<<"a)Es la forma para resolver un problema"<<endl;
-							cout<<"b)Un conjunto de criterios para evaluar"<<endl;
-							cout<<"c)Una lista de opciones"<<endl;
-							cout<<"d)Indica el orden de realizacion"<<endl;
+							cout<<"2-¿Son tipos de metodologías?"<<endl;
+							cout<<"a)agiles, nobles"<<endl;
+							cout<<"b)tradicionales, agiles"<<endl;
+							cout<<"c)tradicionales, nobles"<<endl;
+							cout<<"d)tradicionales, eficientes"<<endl;
 							cin>>respuesta;	
-						    if(respuesta=='a')
+						    if(respuesta=='b')
 								{
 									cout<<"la respuesta es correcta2"<<endl;
 									contap=contap+1;
@@ -76,35 +76,38 @@ main()
 							else
 								{
 									cout<<"La respuesta es incorrecta"<<endl; 
+									cout<<"La respuesta es:tradicionales, agiles "<<endl;
 									contan=contan+1;
 								}
 						break;	
 						case 3:
-							cout<<"¿3-¿Cuales son las fases del ciclo de vida del Software?"<<endl;
-							cout<<"a)Mantenimiento y evolucion, Identificacion de necesidades"<<endl;
-							cout<<"b)Validación, analisis y diseño"<<endl;
-							cout<<"c)Pruebas y codificacion"<<endl;
-							cout<<"d)Todas las anteriores"<<endl;
+							cout<<"¿3-¿Es una técnica que permite desarrollar un software en tiempo corto?"<<endl;
+							cout<<"a) ITIL"<<endl;
+							cout<<"b) COBIT"<<endl;
+							cout<<"c) RAD"<<endl;
+							cout<<"d) SCRUM"<<endl;
 							cin>>respuesta;	
-						    if(respuesta=='d')
+						    if(respuesta=='c')
 							    {
 							    	cout<<"la respuesta es correcta3"<<endl;
 							    	contap=contap+1;
 							    }
 							else
 								{
-							    	cout<<"La respuesta es incorrecta3"<<endl; 
+							    	cout<<"La respuesta es incorrecta3"<<endl;
+							
+									 cout<<"La  respuesta es: RAD "<<endl;
 									contan=contan+1;
 							    }
 						break; 
 						case 4:
-					    	cout<<"4-¿Identificacion de Necesidades:¿Cuales son las fases para plantear un problema?"<<endl;
-							cout<<"a)Establecer y Listar"<<endl;
-							cout<<"b)Validar, Analizar y Diseñar"<<endl;
-							cout<<"c)Establecer, Listar, Recabar, Evaluar"<<endl;
-							cout<<"d)Ninguna"<<endl;
+					    	cout<<"4-¿permite la integración de las áreas de Desarrollo, Operaciones y Seguridad para garantizar la efectividad de aplicación y obtener un mejor resultado?"<<endl;
+							cout<<"a)COBIT"<<endl;
+							cout<<"b) DEVOPS"<<endl;
+							cout<<"c) EL SCRUM "<<endl;
+							cout<<"d) EXTREME PROGRAMMING "<<endl;
 							cin>>respuesta;
-							if(respuesta=='a')
+							if(respuesta=='b')
 								{
 							    	cout<<"la respuesta es correcta"<<endl;	
 							    	contap=contap+1;
@@ -112,17 +115,18 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl;
+							    	cout<<"La  respuesta es: DEVOPS "<<endl;
 							    	contan=contan+1;
 							    }
 						break;    
 						case 5:
-					    	cout<<"5-¿Que es establecer?"<<endl;
-							cout<<"a)Las oportunidades a partir de los criterios que se establezcan"<<endl;
-							cout<<"b)Datos e informacion para cada oportunidad y garantizar una decision"<<endl;
+					    	cout<<"5-¿El marco de trabajo de una metodología de desarrollo de software consiste en?"<<endl;
+							cout<<"a)Una filosofía de desarrollo de software, con el enfoque o enfoques del proceso de desarrollo de software."<<endl;
+							cout<<"b)Múltiples lugares, sitios y métodos para ayudar en el proceso de desarrollo de software"<<endl;
 							cout<<"c)Listar opciones que seran la base de cada oportunidad"<<endl;
 							cout<<"d)Conjunto de criterios para evaluar las oportunidades, si se adecua con requerimiento del cliente"<<endl;
 							cin>>respuesta;
-							if(respuesta=='b')
+							if(respuesta=='a')
 								{
 							    	cout<<"la respuesta es correcta"<<endl;
 							    	contap=contap+1;
@@ -130,13 +134,15 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl; 
+							    	cout<<"La  respuesta es: Una filosofía de desarrollo de software, con el enfoque o enfoques del proceso de desarrollo de software  "<<endl;
 							    	contan=contan+1;	
 							    }
 						break;    
+						
 						case 6:
-					    	cout<<"6-¿Que es Listar?"<<endl;
+					    	cout<<"6-¿Cual es una ventaja de la metodología SCRUM?"<<endl;
 							cout<<"a)Conjunto de criterios para evaluar las oportunidades, si se adecua con requerimiento del cliente"<<endl;
-							cout<<"b)Listar opciones que seran la base de cada oportunidad"<<endl;
+							cout<<"b)El cliente establece sus expectativas indicando el valor que le aporta cada requisito del proyecto y cuando espera que este completada"<<endl;
 							cout<<"c)Datos e informacion para cada oportunidad y garantizar una decision"<<endl;
 							cout<<"d)Las oportunidades a partir de los criterios que se establezcan"<<endl;
 							cin>>respuesta;
@@ -148,6 +154,95 @@ main()
 							else
 								{
 							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    		cout<<"La  respuesta es: El cliente establece sus expectativas indicando el valor que le aporta cada requisito del proyecto y cuando espera que este completada  "<<endl;
+							    	contan=contan+1;	
+						    	} 
+					
+					   	break;
+					   	
+					   	
+					   	case 7:
+					    	cout<<"7-¿Es una desventaja de la metodología orientada a datos?"<<endl;
+							cout<<"a) La estructura de los datos transforma una representación"<<endl;
+							cout<<"b)La estructura de los datos afecta el diseño, tanto en los aspectos estructural, como procedimental del software "<<endl;
+							cout<<"c)La estructura organizacional para ejecución del problema procedimental del software"<<endl;
+							cout<<"d)Las oportunidades a partir de los criterios que se establezcan"<<endl;
+							cin>>respuesta;
+							if(respuesta=='b')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    		cout<<"La  respuesta es: La estructura de los datos afecta el diseño, tanto en los aspectos estructural, como procedimental del soft "<<endl;
+							    	contan=contan+1;	
+						    	} 
+						
+					   	break;
+					   	
+					   	
+					   	case 8:
+					    	cout<<"8-¿ventaja de la metodología tradicional?"<<endl;
+							cout<<"a)Seguir pasos intuitivos necesarios a la hora de desarrollar el software"<<endl;
+							cout<<"b)Excesiva flexibilidad para algunos proyectos"<<endl;
+							cout<<"c)Trazabilidad de requisitos para desarrollo general"<<endl;
+							cout<<"d)Paso a paso de requerimientos de software"<<endl;
+							cin>>respuesta;
+							if(respuesta=='a')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    		cout<<"La  respuesta es: Seguir pasos intuitivos necesarios a la hora de desarrollar el software "<<endl;
+							    	contan=contan+1;	
+						    	} 
+					
+					   	break;
+					   	
+					   	
+					   	case 9:
+					    	cout<<"9-¿Permite y facilita organizar actividades del proyecto vertical mente (de arriba hacia abajo) para ejecutar de forma secuencial?"<<endl;
+							cout<<"a) método waterfall o cascada"<<endl;
+							cout<<"b) método prototipos"<<endl;
+							cout<<"c) método de RAD"<<endl;
+							cout<<"d) método incremental"<<endl;
+							cin>>respuesta;
+							if(respuesta=='a')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    		cout<<"La  respuesta es: método waterfall o cascada "<<endl;
+							    	contan=contan+1;	
+						    	} 
+						
+					   	break;
+					   	
+					   	
+					   	case 10:
+					    	cout<<"10-¿Que es el COBIT?"<<endl;
+							cout<<"a)facilita el desarrollo de prototipos para desarrollo a nivel de software"<<endl;
+							cout<<"b)Facilita el desarrollo de políticas y buenas prácticas en el control de proyectos TI en las empresas, comprender, administrar los riesgos y beneficios"<<endl;
+							cout<<"c)Se elabora un prototipo para que los usuarios lo prueben y poder identificar de forma directa las necesidades y requerimientos"<<endl;
+							cout<<"d) Se crean prioridades según la velocidad de ejecución de las actividades"<<endl;
+							cin>>respuesta;
+							if(respuesta=='b')
+								{
+							    	cout<<"la respuesta es correcta"<<endl<<endl<<endl;
+							    	contap=contap+1;
+							    }
+							else
+								{
+							    	cout<<"La respuesta es incorrecta"<<endl<<endl<<endl;
+							    		cout<<"La  respuesta es: Facilita el desarrollo de políticas y buenas prácticas en el control de proyectos TI en las empresas, comprender, administrar los riesgos y beneficios  "<<endl;
 							    	contan=contan+1;	
 						    	} 
 						break;
